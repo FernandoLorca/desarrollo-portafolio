@@ -5,3 +5,16 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: rgb(33, 37, 41);
+  color: white !important;
+}
+
+.tab {
+  max-width: 750px;
+}
+
+.img-tab {
+  width: 350px;
+}
