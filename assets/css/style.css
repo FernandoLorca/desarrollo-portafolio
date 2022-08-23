@@ -15,6 +15,16 @@ header {
   max-width: 750px;
 }
 
+.tab-pane p {
+  max-width: 400px;
+}
+
 .img-tab {
   width: 350px;
+  margin: 0 auto;
+}
+
+.button-tab {
+  display: flex;
+  justify-content: center;
 }
