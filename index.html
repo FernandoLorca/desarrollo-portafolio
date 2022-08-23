@@ -13,39 +13,37 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <section>
-      <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand display-5 text-light" href="#">Fernando Lorca</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-light"
-                  aria-current="page"
-                  href="#header"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#portafolio">Portafolio</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container">
+        <a class="navbar-brand display-5 text-light" href="#">Fernando Lorca</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#header"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#portfolio">Portafolio</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </section>
+      </div>
+    </nav>
     <section id="header">
       <header
         class="d-flex flex-column align-items-center justify-content-center"
@@ -54,6 +52,81 @@
         <h2 class="text-center text-light">Portafolio</h2>
       </header>
     </section>
+    <section id="portfolio" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <div class="tab">
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Curriculum Vitae</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark" id="pills-keyboard-tab" data-bs-toggle="pill" data-bs-target="#pills-keyboard" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Teclados mecánicos</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark" id="pills-iguana-tab" data-bs-toggle="pill" data-bs-target="#pills-iguana" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Iguana Page</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark" id="pills-cuppon-tab" data-bs-toggle="pill" data-bs-target="#pills-cuppon" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Cuppon hamburguesas</button>
+                </li>
+              </ul>
+              <hr>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                  <h3 class="text-center">Curriculum vitae</h3>
+                  <div class="tab-description d-flex justify-content-center">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eligendi saepe, eos perspiciatis nisi ullam.</p>
+                  </div>
+                  <div class="img-tab my-2">
+                    <img src="assets/img/curriculum-vitae.png" class="img-fluid" alt="Curriculum Vitae">
+                  </div>
+                  <div class="button-tab">
+                    <button class="btn btn-dark my-3">Ver proyecto</button>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-keyboard" role="tabpanel" aria-labelledby="pills-keyboard-tab" tabindex="0">
+                  <h3 class="text-center">Teclados mecánicos</h3>
+                  <div class="tab-description d-flex justify-content-center">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eligendi saepe, eos perspiciatis nisi ullam.</p>
+                  </div>
+                  <div class="img-tab my-2"">
+                    <img src="assets/img/teclados-mecanicos.png" class="img-fluid" alt="Teclados mecanicos">
+                  </div>
+                  <div class="button-tab">
+                    <button class="btn btn-dark my-3">Ver proyecto</button>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-iguana" role="tabpanel" aria-labelledby="pills-iguana-tab" tabindex="0">
+                  <h3 class="text-center">Iguana page</h3>
+                  <div class="tab-description d-flex justify-content-center">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eligendi saepe, eos perspiciatis nisi ullam.</p>
+                  </div>
+                  <div class="img-tab my-2"">
+                    <img src="assets/img/iguana-page.png" class="img-fluid" alt="Iguana page">
+                  </div>
+                  <div class="button-tab">
+                    <button class="btn btn-dark my-3">Ver proyecto</button>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-cuppon" role="tabpanel" aria-labelledby="pills-cuppon-tab" tabindex="0">
+                  <h3 class="text-center">Cuppon hamburguesas</h3>
+                  <div class="tab-description d-flex justify-content-center">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eligendi saepe, eos perspiciatis nisi ullam.</p>
+                  </div>
+                  <div class="img-tab my-2"">
+                    <img src="assets/img/cuppon-hamburguesas.png" class="img-fluid" alt="Cuppon hamburguesas">
+                  </div>
+                  <div class="button-tab">
+                    <button class="btn btn-dark my-3">Ver proyecto</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
@@ -61,3 +134,4 @@
     ></script>
   </body>
 </html>
+>>>>>>> section-portfolio
