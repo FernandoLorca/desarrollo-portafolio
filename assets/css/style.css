@@ -5,6 +5,11 @@ header {
   background-repeat: no-repeat;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   background-color: rgb(33, 37, 41);
   color: white !important;
@@ -26,4 +31,8 @@ header {
 .button-tab {
   display: flex;
   justify-content: center;
+}
+
+#clientes {
+  height: 60px;
 }
