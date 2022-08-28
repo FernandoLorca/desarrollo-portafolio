@@ -14,8 +14,9 @@ a {
   text-decoration: none;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: darkorange;
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: rgb(33, 37, 41);
   color: white !important;
 }
 
