@@ -15,7 +15,7 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: rgb(33, 37, 41);
+  background-color: darkorange;
   color: white !important;
 }
 
